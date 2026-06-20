@@ -1,0 +1,51 @@
+.day5{
+    background-color:rgb(135, 206, 235);
+    color :rgb(47, 79, 79);
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(135, 206, 235);
+    text-align:center;
+}
+h1{
+            background-color: rgb(135, 206, 235);
+            color:  rgb(152, 255, 152);
+            font-family: Arial, sans-serif;
+            text-decoration: underline double;
+        }
+table{
+    
+    background-color:rgb(152, 255, 152);
+    font-family: Pacifico, cursive;
+    
+}
+p{
+    background-color:  rgb(152, 255, 152);
+    color: rgb(47, 79, 79);
+    font-size: 20px;
+    font-family: Playfair Display, serif;
+    text-align: center;
+}
+h3{
+        background-color:rgb(152, 255, 152);
+        color: rgb(47, 79, 79);
+        font-family: Georgia, serif;
+        text-decoration: underline dotted;
+    }
+    div{
+        background-color: rgb(152, 255, 152);
+        color: rgb(47, 79, 79);
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        font-size: 25px;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 40px;
+        border: 2px solid rgb(47, 79, 79);
+        border-radius: 10px;
+    }
+    img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
