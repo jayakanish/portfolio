@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>YOUR SECTION</title>
+    <link rel="stylesheet" href="formal.css">
+</head>
+<body>
+    <header>
+        <h1>POLLING</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#LOCATION">LOCATION </a>
+            <a href="#">CANDIDATES</a>
+            <a href="#">PARTIES</a>
+            <a href="#PROMISES">PROMISES</a>
+            <a href="#CONFORMATION">CONFORMATION</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h2> election commission of india </h2>
+        <p></p>
+        <button>START QUEST</button>
+    </section>
+    <h2>Voter Verification</h2>
+
+<label>Enter Your Age</label>
+
+<input type="number" id="age" placeholder="Enter age">
+
+<button onclick="checkAge()">Verify</button>
+
+<h3 id="status"></h3>
+    <section id="CANDIDATE">
+        <h2>CANDIDATE</h2>
+        <div class="div">
+            <div class ="gopal">
+            <h2>CANDIDATE1</h2>
+            <img class="img" src="C:\Users\JEYAKANISH\Downloads\no-dp_16.webp">
+            <h3>gopal</h3>
+            <h5>tha</h5>
+            <h5>promises:nothing</h5>
+            <div class="gopal">
+    <h2>CANDIDATE 1</h2>
+    <h3>Gopal</h3>
+    <h5>Party : THA</h5>
+    <h5>Promises : Nothing</h5>
+    <button onclick="vote('Gopal')">Vote</button>
+</div>
+            </div>
+        <div class ="gopal">
+            <h2>CANDIDATE2</h2>
+            <img class="img" src="C:\Users\JEYAKANISH\Downloads\no-dp_16.webp">
+            <h3>fire</h3>
+            <h5>tha</h5>
+            <h5>promises:nothing</h5>
+            <div class="gopal">
+
+    <h2>CANDIDATE 2</h2>
+    <h3>Fire</h3>
+    <h5>Party : THA</h5>
+    <h5>Promises : Nothing</h5>
+    <button onclick="vote('Fire')">Vote</button>
+</div>
+            </div>
+        <div class ="gopal">
+            <h2>CANDIDATE3</h2>
+            <img class="img" src="C:\Users\JEYAKANISH\Downloads\no-dp_16.webp">
+            <h3>pushapa</h3>
+            <h5>tha</h5>
+            <h5>promises:nothing</h5>
+            <div class="gopal">
+
+    <h2>CANDIDATE 3</h2>
+    <h3>Pushapa</h3>
+    <h5>Party : THA</h5>
+    <h5>Promises : Nothing</h5>
+    <button onclick="vote('Pushapa')">Vote</button>
+</div>
+            </div>
+    </section>
+   <section id="LOCATION">
+
+    <h2>Polling Locations</h2>
+
+    <div class="div">
+
+        <div class="gopal">
+            <h3>Booth 101</h3>
+            <p>Government School</p>
+            <p>8:00 AM - 5:00 PM</p>
+        </div>
+
+        <div class="gopal">
+            <h3>Booth 102</h3>
+            <p>Community Hall</p>
+            <p>8:00 AM - 5:00 PM</p>
+        </div>
+
+        <div class="gopal">
+            <h3>Booth 103</h3>
+            <p>Library Building</p>
+            <p>8:00 AM - 5:00 PM</p>
+        </div>
+
+    </div>
+
+</section>
+   <section id="PARTIES">
+    <h2>Political Parties</h2>
+    <div class="div">
+        <div class="gopal">
+            <h3>Unity Party</h3>
+            <p>Symbol : 🌳</p>
+            <p>Development & Education</p>
+        </div>
+        <div class="gopal">
+            <h3>Future Party</h3>
+            <p>Symbol : ⭐</p>
+            <p>Technology & Jobs</p>
+        </div>
+        <div class="gopal">
+            <h3>People Party</h3>
+            <p>Symbol : 🤝</p>
+            <p>Health & Welfare</p>
+        </div>
+    </div>
+</section>
+    <section id="PROMISES">
+    <h2>Election Promises</h2>
+    <div class="div">
+        <div class="gopal">
+            <h3>Education</h3>
+            <p>Build new schools and libraries.</p>
+        </div>
+        <div class="gopal">
+            <h3>Employment</h3>
+            <p>Create more job opportunities.</p>
+        </div>
+        <div class="gopal">
+            <h3>Healthcare</h3>
+            <p>Improve hospitals and medical camps.</p>
+        </div>
+    </div>
+</section>
+<section id="CONFORMATION">
+    <h2>Vote Confirmation</h2>
+    <p>Your participation strengthens democracy.</p>
+    <button id="voteBtn">CONFIRM VOTE</button>
+    <h3 id="message"></h3>
+</section>
+<section id="CONFORMATION">
+    <h2>Voting Result</h2>
+    <h3>Gopal : <span id="gopalVote">0</span></h3>
+    <h3>Fire : <span id="fireVote">0</span></h3>
+    <h3>Pushapa : <span id="pushapaVote">0</span></h3>
+    <h2 id="selectedCandidate">No Candidate Selected</h2>
+</section>
+<script src="formal.js"></script>
+</body>
+</html>

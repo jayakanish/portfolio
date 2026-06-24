@@ -8,7 +8,7 @@
 }
 
 body {
-    background: #0b0f19;
+    background: #000000;
     color: #ffffff;
     line-height: 1.6;
 }
@@ -21,8 +21,8 @@ header {
     background: rgba(10, 10, 20, 0.7);
     backdrop-filter: blur(12px);
     padding: 15px 0;
-    z-index: 1000;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+  
+    border-bottom: 1px solid rgb(7, 2, 2);
 }
 
 nav {
@@ -149,8 +149,6 @@ nav a:hover::after {
     width: 100%;
     display: block;
 }
-
-
 .k {
     color: #00e5ff;
     font-size: 22px;
@@ -173,5 +171,5 @@ button {
     cursor: pointer;
 }
 .light-mode{
-    background-color:#93d7df;
+    background-color:#080349;
 }
