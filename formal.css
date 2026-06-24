@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#08111f;
+    background:hsl(67, 57%, 85%);
     color:rgb(28, 119, 255);
     font-family:'Audiowide', cursive, sans-serif;
     text-shadow: 0 0 10px rgba(0,255,213,0.8), 0 0 20px rgba(0,255,213,0.4);
@@ -14,7 +14,7 @@ header{
     position:fixed;
     width:100%;
     top:0;
-    background:#111827;
+    background:#010307;
     display:flex;
     justify-content:space-between;
     align-items:center;
