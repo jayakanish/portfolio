@@ -4,121 +4,153 @@
     box-sizing:border-box;
 }
 
+
 body{
-    background:hsl(67, 57%, 85%);
-    color:rgb(28, 119, 255);
-    font-family:'Audiowide', cursive, sans-serif;
-    text-shadow: 0 0 10px rgba(0,255,213,0.8), 0 0 20px rgba(0,255,213,0.4);
+    background:linear-gradient(135deg,#f8fafc,#e2e8f0);
+    color:#1e293b;
+    font-family:Arial, Helvetica, sans-serif;
 }
 header{
     position:fixed;
-    width:100%;
     top:0;
-    background:#010307;
+    width:100%;
+    background:linear-gradient(90deg,#0f172a,#1e3a8a);
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 60px;
+    z-index:1000;
+    box-shadow:0 4px 15px rgba(0,0,0,.2);
 }
+header h1{
+    color:white;
+}
+
 nav{
-   display:flex;
+    display:flex;
     gap:30px;
 }
 nav a{
     color:white;
     text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
 }
+
 nav a:hover{
-    color:#00ffd5;
+    color:#38bdf8;
 }
+
+
+
 section{
     min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    padding:100px 50px;
 }
-button{
-    margin-top:30px;
-    padding:15px 40px;
-    border:none;
-    border-radius:10px;
-    cursor:pointer;
-    font-size:18px;
-}
+
 h2{
-    font-variant: small-caps;
+    font-size:40px;
+    margin-bottom:20px;
+    color:#1e3a8a;
+}
+
+p{
+    color:#475569;
+}
+
+
+
+button{
+
+    margin-top:20px;
+    padding:14px 35px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(90deg,#2563eb,#3b82f6);
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(37,99,235,.3);
 }
 .div{
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:25px;
+    gap:30px;
+    margin-top:40px;
 }
-
 .gopal{
-   
-    background-color:white;
-    border-radius:10px;
+    background:white;
+    border-radius:18px;
+    padding:20px;
     text-align:center;
-    padding:15px;
-    box-shadow:0px 0px 10px lightgray;
-  
+    transition:.4s;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
 }
-input{
-    padding:12px;
-    width:250px;
-    border-radius:8px;
-    border:none;
-    margin:20px;
-    font-size:18px;
+.gopal:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(37,99,235,.2);
 }
-#status{
-    margin-top:20px;
-    color:#00ffd5;
+.gopal h3{
+    color:#0f172a;
+    margin:10px 0;
 }
-
+.gopal h5{
+    color:#64748b;
+    margin:8px 0;
+}
 .img{
     width:100%;
     height:220px;
     object-fit:cover;
-    border-radius:10px;
+    border-radius:12px;
+    margin:15px 0;
 }
-.gopal{
-    background:white;
-    color:black;
-    border-radius:15px;
-    padding:20px;
-    transition:0.4s;
+input{
+    width:280px;
+    padding:12px;
+    border:2px solid #cbd5e1;
+    border-radius:8px;
+    outline:none;
+    font-size:17px;
+    transition:.3s;
 }
-.gopal:hover{
-    transform:translateY(-10px);
-    box-shadow:0 0 20px cyan;
+input:focus{
+    border-color:#2563eb;
 }
-button{
-    background:#00ffd5;
-    color:#08111f;
+#status{
+    margin-top:15px;
     font-weight:bold;
-}
-button:hover{
-    transform:scale(1.05);
+    color:#16a34a;
 }
 #message{
+    margin-top:15px;
+    color:#16a34a;
+    font-weight:bold;
+}
+#selectedCandidate{
+    color:#2563eb;
     margin-top:20px;
-    color:#00ff88;
+    font-size:22px;
 }
 .vote-link{
-display:inline-block;
-margin-top:15px;
-padding:12px 25px;
-background:#00ffd5;
-color:black;
-text-decoration:none;
-border-radius:8px;
-font-weight:bold;
-transition:.3s;
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
 }
 .vote-link:hover{
-transform:scale(1.05);
-box-shadow:0 0 20px cyan;
+    background:#1d4ed8;
+    transform:scale(1.05);
 }
-
