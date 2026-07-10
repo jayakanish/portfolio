@@ -5,15 +5,19 @@
 
 const jobs = [
 
+    "FREELANCER",
+
     "WEB DEVELOPER",
 
+    "FULLSTACK DEVELOPER",
+    
     "FRONTEND DEVELOPER",
 
     "UI DESIGNER",
 
     "JAVASCRIPT DEVELOPER",
 
-    "FREELANCER"
+    
 
 ];
 
